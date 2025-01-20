@@ -92,6 +92,45 @@
     <h6>暂时这个域名没有搭建网站，有建议可以提出来<br>微信: isbn0301</h6>
     <p class="bb">支持一下作者呗</p>
 </div>
+<!-- 底部显示网站运行时间 -->
+<div style="position: fixed; bottom: 10px; left: 50%; transform: translateX(-50%); color: white; font-size: 1rem; text-align: center; z-index: 999;">
+    <span id="timeDate">载入天数...</span>
+    <span id="times">载入时分秒...</span>
+</div>
+
+<script>
+    // 获取当前时间
+    const now = new Date();
+
+    // 网站上线时间
+    const startTime = new Date("01/01/2025 10:00:00");
+
+    // 计算网站运行时间
+    function updateRuntime() {
+        const currentTime = new Date();
+
+        // 计算时间差（毫秒）
+        const timeDiff = currentTime - startTime;
+
+        // 计算天、小时、分钟、秒数
+        const days = Math.floor(timeDiff / (1000 * 60 * 60 * 24));
+        const hours = Math.floor((timeDiff / (1000 * 60 * 60)) % 24);
+        const minutes = Math.floor((timeDiff / (1000 * 60)) % 60);
+        const seconds = Math.floor((timeDiff / 1000) % 60);
+
+        // 格式化小时、分钟、秒数，确保为两位数
+        const formattedHours = hours < 10 ? "0" + hours : hours;
+        const formattedMinutes = minutes < 10 ? "0" + minutes : minutes;
+        const formattedSeconds = seconds < 10 ? "0" + seconds : seconds;
+
+        // 更新页面上的显示
+        document.getElementById("timeDate").innerHTML = `本站已安全运行 ${days} 天 `;
+        document.getElementById("times").innerHTML = `${formattedHours} 小时 ${formattedMinutes} 分 ${formattedSeconds} 秒.`;
+    }
+
+    // 每隔250毫秒更新一次显示
+    setInterval(updateRuntime, 250);
+</script>
 
 </body>
 </html>
