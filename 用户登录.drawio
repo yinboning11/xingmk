@@ -1,0 +1,144 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:138.0) Gecko/20100101 Firefox/138.0" version="27.1.0">
+  <diagram name="第 1 页" id="sKsqwnpUo8KZkos6TVfU">
+    <mxGraphModel dx="2316" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="dgAl50ZLXmA5elz0hx0G-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="dgAl50ZLXmA5elz0hx0G-1" target="dgAl50ZLXmA5elz0hx0G-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dgAl50ZLXmA5elz0hx0G-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="dgAl50ZLXmA5elz0hx0G-1" target="dgAl50ZLXmA5elz0hx0G-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dgAl50ZLXmA5elz0hx0G-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="dgAl50ZLXmA5elz0hx0G-1" target="dgAl50ZLXmA5elz0hx0G-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dgAl50ZLXmA5elz0hx0G-1" value="用户访问火车票查询页面，填写查询条件" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-229" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dgAl50ZLXmA5elz0hx0G-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="dgAl50ZLXmA5elz0hx0G-2" target="dgAl50ZLXmA5elz0hx0G-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dgAl50ZLXmA5elz0hx0G-2" value="开始" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-229" y="100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dgAl50ZLXmA5elz0hx0G-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="dgAl50ZLXmA5elz0hx0G-3" target="dgAl50ZLXmA5elz0hx0G-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dgAl50ZLXmA5elz0hx0G-3" value="输入出发/到达城市" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-400" y="300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dgAl50ZLXmA5elz0hx0G-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="dgAl50ZLXmA5elz0hx0G-7" target="dgAl50ZLXmA5elz0hx0G-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dgAl50ZLXmA5elz0hx0G-7" value="进行日期选择" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-229" y="300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dgAl50ZLXmA5elz0hx0G-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="dgAl50ZLXmA5elz0hx0G-9" target="dgAl50ZLXmA5elz0hx0G-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dgAl50ZLXmA5elz0hx0G-19" value="N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="dgAl50ZLXmA5elz0hx0G-13">
+          <mxGeometry x="-0.2175" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dgAl50ZLXmA5elz0hx0G-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="dgAl50ZLXmA5elz0hx0G-9" target="dgAl50ZLXmA5elz0hx0G-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dgAl50ZLXmA5elz0hx0G-18" value="Y" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="dgAl50ZLXmA5elz0hx0G-16">
+          <mxGeometry x="-0.1722" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dgAl50ZLXmA5elz0hx0G-9" value="&lt;div&gt;判断出发/到达城市&lt;/div&gt;&lt;div&gt;是否存在&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-410" y="400" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="dgAl50ZLXmA5elz0hx0G-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="dgAl50ZLXmA5elz0hx0G-11" target="dgAl50ZLXmA5elz0hx0G-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dgAl50ZLXmA5elz0hx0G-11" value="进行火车票查询" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-229" y="709" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dgAl50ZLXmA5elz0hx0G-12" value="提示城市不存在" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-590" y="410" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dgAl50ZLXmA5elz0hx0G-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="dgAl50ZLXmA5elz0hx0G-15" target="dgAl50ZLXmA5elz0hx0G-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dgAl50ZLXmA5elz0hx0G-29" value="&lt;div&gt;Y&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="dgAl50ZLXmA5elz0hx0G-21">
+          <mxGeometry x="-0.1333" y="-4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dgAl50ZLXmA5elz0hx0G-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="dgAl50ZLXmA5elz0hx0G-15" target="dgAl50ZLXmA5elz0hx0G-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-340" y="650" />
+              <mxPoint x="-170" y="650" />
+              <mxPoint x="-170" y="709" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dgAl50ZLXmA5elz0hx0G-28" value="N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="dgAl50ZLXmA5elz0hx0G-22">
+          <mxGeometry x="-0.9245" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dgAl50ZLXmA5elz0hx0G-15" value="&lt;div&gt;判断出发地=目的地&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-410" y="545" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="dgAl50ZLXmA5elz0hx0G-20" value="弹窗提示“请修改目的地”" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-590" y="555" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dgAl50ZLXmA5elz0hx0G-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="dgAl50ZLXmA5elz0hx0G-23" target="dgAl50ZLXmA5elz0hx0G-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dgAl50ZLXmA5elz0hx0G-45" value="N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="dgAl50ZLXmA5elz0hx0G-27">
+          <mxGeometry x="-0.3352" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dgAl50ZLXmA5elz0hx0G-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="dgAl50ZLXmA5elz0hx0G-23" target="dgAl50ZLXmA5elz0hx0G-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dgAl50ZLXmA5elz0hx0G-44" value="Y" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="dgAl50ZLXmA5elz0hx0G-42">
+          <mxGeometry x="0.0124" relative="1" as="geometry">
+            <mxPoint y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dgAl50ZLXmA5elz0hx0G-23" value="&lt;div&gt;判断日期早于今天&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-239" y="417" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="dgAl50ZLXmA5elz0hx0G-24" value="提示“无效日期”" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-130" y="520" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dgAl50ZLXmA5elz0hx0G-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="dgAl50ZLXmA5elz0hx0G-30" target="dgAl50ZLXmA5elz0hx0G-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dgAl50ZLXmA5elz0hx0G-30" value="选择乘作方式" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="17" y="300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dgAl50ZLXmA5elz0hx0G-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="dgAl50ZLXmA5elz0hx0G-33" target="dgAl50ZLXmA5elz0hx0G-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="77" y="650" />
+              <mxPoint x="-169" y="650" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dgAl50ZLXmA5elz0hx0G-33" value="单程/往返/中转" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="17" y="420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dgAl50ZLXmA5elz0hx0G-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="dgAl50ZLXmA5elz0hx0G-46" target="dgAl50ZLXmA5elz0hx0G-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dgAl50ZLXmA5elz0hx0G-46" value="展示查询结果页" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-229" y="840" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dgAl50ZLXmA5elz0hx0G-50" value="结束" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-229" y="970" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
